@@ -1,0 +1,42 @@
+html, body {
+    background-color: rgb(20, 20, 20);
+    color: rgb(245, 245, 245);
+    overflow: scroll;
+    font-family: MSB;
+    margin: 0;
+    padding: 0;
+    border: unset;
+    box-sizing: border-box;
+    height: 100%;
+    accent-color: rgb(236, 8, 0);
+    scrollbar-width: thin;
+    scrollbar-color: rgb(245, 245, 245) rgb(20, 20, 20);
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgb(20, 20, 20);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(245, 245, 245);
+    border-radius: 10px;
+}
+
+::selection {
+    background-color: rgb(236, 8, 0);
+    color: rgb(245, 245, 245);
+}
+
+@font-face {
+    font-family: MSB;
+    src: url(/Fonts/MSB.ttf);
+}
+
+@font-face {
+    font-family: MEB;
+    src: url(/Fonts/MEB.ttf);
+}
