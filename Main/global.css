@@ -11,6 +11,8 @@ html, body {
     accent-color: rgb(236, 8, 0);
     scrollbar-width: thin;
     scrollbar-color: rgb(245, 245, 245) rgb(20, 20, 20);
+    overflow-x: hidden;  
+    overflow-y: auto;
 }
 
 ::-webkit-scrollbar {
