@@ -239,6 +239,7 @@ li {
     cursor: pointer;
     border: 2px solid rgb(236, 8, 0);
     box-shadow: 5px 5px 45px rgb(236, 8, 0);
+    transform: scale(1.05);
 }
 
 .foot-cont:not(:hover) {
