@@ -1,0 +1,32 @@
+:root {
+    --background-dark: #272727;
+    --background-light: #e9e5e5;
+    --yellow: #c8a216;
+    --red: #e4280f;
+    --blue: #2fb0b9;
+    --green: #2bfaa1;
+    --orange: #dd7f12;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.page-wrapper {
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    background-color: var(--background-light);
+}
+
+.page-wrapper.dark {
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    background-color: var(--background-dark);
+}
