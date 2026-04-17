@@ -215,7 +215,7 @@ li {
     padding: 0;
 }
 
-.why-redown {
+.why-redown-cont {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;

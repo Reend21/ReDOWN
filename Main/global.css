@@ -35,10 +35,15 @@ html, body {
 
 @font-face {
     font-family: MSB;
-    src: url(/Fonts/MSB.ttf);
+    src: url(/ReDOWN/Fonts/MSB.ttf);
 }
 
 @font-face {
     font-family: MEB;
-    src: url(/Fonts/MEB.ttf);
+    src: url(/ReDOWN/Fonts/MEB.ttf);
+}
+
+@font-face {
+    font-family: hermit;
+    src: url(/ReDOWN/Fonts/hermit.otf);
 }
