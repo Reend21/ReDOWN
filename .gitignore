@@ -1,0 +1,32 @@
+# User Data
+data/config.json
+data/history.db
+data/presets.json
+
+# Logs (obviously)
+logs/
+*.log
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Enviroment
+.env
+.env.*
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build / temp
+dist/
+tmp/
+.cache/
