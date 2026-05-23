@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Logo -->
-<img src="frontend/assets/logos/redown.png" alt="Re://DOWN Logo" width="120" height="120">
+<img src="frontend/assets/icons/redown.png" alt="Re://DOWN Logo" width="120" height="120">
 
 <h1>Re://DOWN</h1>
 
