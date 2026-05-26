@@ -1,18 +1,15 @@
 <div align="center">
 
 <!-- Logo -->
-<img src="frontend/assets/icons/redown.png" alt="Re://DOWN Logo" width="120" height="120">
+<img src="frontend/assets/icons/redownalpha.png" alt="Re://DOWN Logo" width="120" height="120">
 
-<h1>Re://DOWN</h1>
+<h1>Re://DOWN (alpha -- no working version)</h1>
 
 <p>A powerful, privacy-respecting download tool.<br>Simple by default. Powerful when you need it.</p>
 
 [![License: AGPL-3.0-or-later](https://img.shields.io/badge/License-AGPL--3.0--or--later-blueviolet.svg)](LICENSE)
 [![Built with yt-dlp](https://img.shields.io/badge/Powered%20by-yt--dlp-red.svg)](https://github.com/yt-dlp/yt-dlp)
 [![Stack](https://img.shields.io/badge/Stack-Node.js%20%2B%20Fastify-green.svg)](https://fastify.dev)
-
-<img src="frontend/assets/icons/redownalpha.png" alt="Re://DOWN Logo" width="64" height="64">  
-## THIS PROJECT IS ON ALPHA VERSION, THERE IS NO WORKING VERSION YET!
 
 </div>
 
