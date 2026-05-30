@@ -1,18 +1,29 @@
 :root {
-    --background-dark: #272727;
-    --background-light: #e9e5e5;
     --yellow: #c8a216;
     --red: #e4280f;
     --blue: #2fb0b9;
     --green: #2bfaa1;
     --orange: #dd7f12;
+    --background: #272727;
+    --text: rgb(239, 239, 239);    
+    
 }
 
-body {
+[data-theme="light"] {
+    --background: #f9f8f8;
+    --text: rgb(16, 16, 16);
+}
+
+html, body {
     width: 100%;
     height: 100%;
-    padding: 0px;
-    margin: 0px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.icon {
+    color: var(--text);
 }
 
 .page-wrapper {
@@ -20,13 +31,6 @@ body {
     height: 100%;
     padding: 0px;
     margin: 0px;
-    background-color: var(--background-light);
-}
-
-.page-wrapper.dark {
-    width: 100%;
-    height: 100%;
-    padding: 0px;
-    margin: 0px;
-    background-color: var(--background-dark);
+    background-color: var(--background);
+    color: var(--text);
 }
