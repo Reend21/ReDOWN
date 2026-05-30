@@ -1,9 +1,9 @@
 <div align="center">
 
 <!-- Logo -->
-<img src="frontend/assets/logos/redown.png" alt="Re://DOWN Logo" width="120" height="120">
+<img src="frontend/assets/icons/redownalpha.png" alt="Re://DOWN Logo" width="120" height="120">
 
-<h1>Re://DOWN</h1>
+<h1>Re://DOWN (alpha -- no working version)</h1>
 
 <p>A powerful, privacy-respecting download tool.<br>Simple by default. Powerful when you need it.</p>
 
