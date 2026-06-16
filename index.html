@@ -6,6 +6,7 @@
     <title>Re://DOWN</title>
     <link rel="stylesheet" href="./frontend/css/global.css">
     <link rel="stylesheet" href="./frontend/css/pages/home.css">
+    <link rel="icon" type="image/png" href="./frontend/assets/logos/redown.png">
     <script src="./frontend/js/home.js"></script>
     <script src="./frontend/js/global.js"></script>
 </head>
@@ -16,202 +17,83 @@
                 <a href="https://github.com/Reend21/ReDOWN">
                     <img width="48" height="48" src="./frontend/assets/icons/regular/github-logo.svg" alt="Github">
                 </a>
-                <a href="">
+                <a href="./frontend/pages/about.html">
                     <img width="48" height="48" src="./frontend/assets/icons/regular/info.svg" alt="About">
                 </a>
                 <a href="">
                     <img width="48" height="48" src="./frontend/assets/icons/regular/book-open.svg" alt="Terms of ethic use"> 
                 </a>
-                <a href="">
+                <a href="./frontend/pages/donate.html">
                     <img width="48" height="48" src="./frontend/assets/icons/regular/heart.svg" alt="Donate">
                 </a>
                 <a href="">
                     <img width="48" height="48" src="./frontend/assets/icons/regular/heartbeat.svg" alt="Supported Platforms">
                 </a>
-                <a href="">
+                <a href="./frontend/pages/settings.html">
                     <img width="48" height="48" src="./frontend/assets/icons/regular/gear.svg" alt="Settings">
                 </a>
         </div>
 
         <div class="main-area">
-            <div class="logo-text">
-                <img src="frontend/assets/logos/redown.png" alt="Re://DOWN">
-                <div class="main-text">
+                <img width="128" height="128" src="frontend/assets/logos/redown.png" alt="Re://DOWN">
                     <h1>Re://DOWN</h1>
-                </div>
-                <div class="sub-text">
                     <h2>An FOSS, Ad-Free, Fast, Multiplatform Supported and Powerful Downloader.</h2>
+                <div class="input-group">
+                    <input type="text" name="link" id="down-link">
+                    <button class="download"><img width="48" height="48" src="./frontend/assets/icons/regular/arrow-down.svg" alt="Down"></button>
                 </div>
-            </div>                
-            <div class="download">
-                <input type="text" name="link" id="down-linkf">
-                <button class="download"><img src="./frontend/assets/icons/regular/arrow-down.svg" alt="Down"></button>
-            </div>
             <div class="download-alt">
-                <div class="quality-section">
-                    <div class="quality-button">
                         <h4 class="quality">480p</h4>
                         <button class="quality-btn">
                             <a href="">
                                 <img src="./assets/icons/down.svg" alt="Down">
                             </a>
                         </button>
-                    </div>
-                </div>
-                <div class="format-section">
-                    <div class="video">
                         <h4 class="format-video">MP4</h4>
                         <button class="format-down">
                             <a href="">
                                 <img src="./assets/icons/down.svg" alt="down">
                             </a>
                         </button>
-                    </div>
-                    <div class="sound">
                         <h4 class="format-sound">MP3</h4>
                         <button class="format-down">
                             <a href="">
                                 <img src="./assets/icons/down.svg" alt="down">
                             </a>
                         </button>
-                    </div>
-                </div>
-                <div class="post-section">
                     <img src="" alt="">
                 </div>
-                <div class="preview-section">
-                    <img src="" alt="">
-                </div>
-            </div>  
         </div>
-
-        <div class="why-redown">
-            <div class="reason" id="reason1">
-                <div class="reason-title">
-                    <h2>An downloader you can trust!</h2>
-                </div>
-
-                <div class="reason-sub-text">
-                    <h3>With Re://DOWN you can download your fav contents from most of the social media across internet without a doubt.</h3>
-                </div>
-
-                <div class="icon">
-                    <img width="64" height="64" src="./assets/icons/redown.png" alt="Re://DOWN Logo">
-                </div>
-            </div>
-
-            <div class="reason" id="reason2">
-                <div class="reason-title">
-                    <h2>Download it from any website you want</h2>
-                </div>
-
-                <div class="reason-sub-text">
-                    <h3>Re://DOWN supports wide range of social medias like Youtube, Instagram, X, Tumblr, Bluesky and more!</h3>
-                </div>
-                
-                <div class="icon">
-                    <img width="64" height="64" src="./assets/icons/wide.svg" alt="Wide Range">
-                </div>
-            </div>
-
-            <div class="reason" id="reason3">
-                <div class="reason-title">
-                    <h2>Really Fast</h2>
-                </div>
-
-                <div class="reason-sub-text">
-                    <h3>Re://DOWN Written in node.js, vanilla js and express.js to maximaze the performance. Doesn't use fancy UI frameworks, just doing its own job.</h3>
-                </div>
-                
-                <div class="icon">
-                    <img width="64" height="64" src="./assets/icons/lightning.svg" alt="Fast">
-                </div>
-            </div>
-
-            <div class="reason" id="reason4">
-                <div class="reason-title">
-                    <h2>Your Privacy Matters</h2>
-                </div>
-
-                <div class="reason-sub-text">
-                    <h3>Re://DOWN doesnt have any ads, trackers or any component that can break your privacy or security. We believe Online Privacy is a Human Right.</h3>
-                </div>
-                
-                <div class="icon">
-                    <img width="64" height="64" src="./assets/icons/privacy.svg" alt="Ad-Free">
-                </div>
-            </div>
-
-            <div class="reason-one" id="reason5">
-                <div class="reason-title">
-                    <h2>Completly FOSS!</h2>
-                </div>
-
-                <div class="reason-sub-text">
-                    <h3>Re://DOWN Licensed under AGPL 3.0 Free Software License and anyone can contribute the code, fork the code and see the code transparently.</h3>
-                </div>
-                
-                <div class="icon">
-                    <img width="64" height="64" src="./assets/icons/scale.svg" alt="Scales">
-                </div>
-            </div>
-
-            <div class="reason-one" id="reason6">
-                <div class="reason-title">
-                    <h2>Use it in your way.</h2>
-                </div>
-
-                <div class="reason-sub-text">
-                    <h3>You can use Re://DOWN with diffrent theme, layouts, methods, and even on your <b>terminal!</b></h3>
-                </div>
-                
-                <div class="icon">
-                    <img width="64" height="64" src="./assets/icons/rainbow.svg" alt="Rainbow">
-                </div>
-            </div>
-        </div>
-        
 
         <div class="footer">
-            <div class="footer-logo">
-                <img src=".assets/icons/redown.png" alt="Re://DOWN">    
-            </div>
-            <div class="ul">
-                <ul>
+                <img src="frontend/assets/logos/redown.png" alt="Re://DOWN">
+                <ul class="footer-ul">
                     <li>
-                        <a href="">About</a>
+                        <a href="ReDOWN/frontend/pages/about.html">About</a>
                     </li>
                     <li>
-                        <a href="">License</a>
+                        <a href="https://github.com/Reend21/ReDOWN/blob/master/LICENSE">License</a>
                     </li>
                     <li>
-                        <a href="">Legal</a>
+                        <a href="./frontend/pages/termsofethic.html">Terms of ethic use</a>
                     </li>
                     <li>
-                        <a href="">Terms of ethic use</a>
-                    </li>
-                    <li>
-                        <a href="">Github</a>
+                        <a href="https://github.com/Reend21/ReDOWN">Github</a>
                     </li>
                     <li>
                         <a href="">API</a>
                     </li>
                     <li>
-                        <a href="">Donate</a>
+                        <a href="./frontend/pages/donate.html">Donate</a>
                     </li>
                     <li>
                         <a href="">Themes</a>
                     </li>  
                     <li>
-                        <a href="">Updates</a>
-                    </li> 
-                    <li>
-                        <a href="">super secret mode</a>
-                    </li>                                                                                
+                        <a href="https://github.com/Reend21/ReDOWN/releases">Updates</a>
+                    </li>                                                                               
                 </ul>
-            </div>
         </div>
-
     </div>
     
 </body>

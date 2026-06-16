@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'Hurmit Nerd Font';
+    src: url('../assets/fonts/HurmitNerdFont-Bold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
 :root {
     --yellow: #c8a216;
     --red: #e4280f;
@@ -5,13 +12,14 @@
     --green: #2bfaa1;
     --orange: #dd7f12;
     --background: #272727;
-    --text: rgb(239, 239, 239);    
-    
+    --text: rgb(239, 239, 239);
+    --svg-filter: brightness(0) invert(1);
 }
 
 [data-theme="light"] {
     --background: #f9f8f8;
     --text: rgb(16, 16, 16);
+    --svg-filter: brightness(0);
 }
 
 html, body {
@@ -26,9 +34,15 @@ html, body {
     color: var(--text);
 }
 
+img[src$=".svg"] {
+    filter: var(--svg-filter);
+}
+
 .page-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     width: 100%;
-    height: 100%;
     padding: 0px;
     margin: 0px;
     background-color: var(--background);
