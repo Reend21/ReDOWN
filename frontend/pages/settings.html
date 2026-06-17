@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings</title>
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/pages/settings.css">
+    <link rel="icon" type="image/png" href="../assets/logos/redown.png">
+    <script src="../js/settings.js"></script>
+    <script src="../js/global.js"></script>
+</head>
+<body>
+    
+    <div class="page-wrapper main-page">
+            <ul class="navbar">
+                <li>
+                    <button class="nav-btn" onclick="showSection('general')">
+                        <img src="../assets/icons/regular/gear.svg">
+                        General
+                    </button>
+                </li>
+                <li>
+                    <button class="nav-btn" onclick="showSection('customization')">
+                        <img src="../assets/icons/regular/paint-brush-broad.svg">
+                        Customization
+                    </button>
+                </li>
+                <li>
+                    <button class="nav-btn" onclick="showSection('downloads')">
+                        <img src="../assets/icons/regular/download.svg">
+                        Downloads
+                    </button>
+                </li>
+                <li>
+                    <button class="nav-btn" onclick="showSection('presets')">
+                        <img src="../assets/icons/regular/newspaper-clipping.svg">
+                        Presets
+                    </button>
+                </li>
+                <li>
+                    <button class="nav-btn" onclick="showSection('network')">
+                        <img src="../assets/icons/regular/network.svg">
+                        Network
+                    </button>
+                </li>
+                <li>
+                    <button class="nav-btn" onclick="showSection('privacy')">
+                        <img src="../assets/icons/regular/fingerprint.svg">
+                        Privacy
+                    </button>
+                </li>
+                <li>
+                    <button class="nav-btn" onclick="showSection('backups')">
+                        <img src="../assets/icons/regular/floppy-disk.svg">
+                        Backups
+                    </button>
+                </li>
+                <li>
+                    <button class="nav-btn" onclick="showSection('shortways')">
+                        <img src="../assets/icons/regular/arrows-split.svg">
+                        Shortways
+                    </button>
+                </li>
+                <li>
+                    <button class="nav-btn" onclick="showSection('fine-tuning')">
+                        <img src="../assets/icons/regular/pipe-wrench.svg">
+                        Fine Tuning
+                    </button>
+                </li>                
+            </ul>
+            
+            <div class="settings-content">
+                <section id="general" class="setting-section">
+                    <h2>General Settings</h2>
+                    <p>Settings for general behavior go here.</p>
+                </section>
+                <section id="customization" class="setting-section">
+                    <h2>Customization</h2>
+                    <p>Customize the look and feel of ReDOWN.</p>
+                </section>
+                <section id="downloads" class="setting-section">
+                    <h2>Downloads</h2>
+                    <p>Configure download paths and behavior.</p>
+                </section>
+                <section id="presets" class="setting-section">
+                    <h2>Presets</h2>
+                    <p>Manage your quality and format presets.</p>
+                </section>
+                <section id="network" class="setting-section">
+                    <h2>Network</h2>
+                    <p>Configure proxy and connection limits.</p>
+                </section>
+                <section id="privacy" class="setting-section">
+                    <h2>Privacy</h2>
+                    <p>Manage analytics and data collection.</p>
+                </section>
+                <section id="backups" class="setting-section">
+                    <h2>Backups</h2>
+                    <p>Backup and restore your settings.</p>
+                </section>
+                <section id="shortways" class="setting-section">
+                    <h2>Shortways</h2>
+                    <p>Manage keyboard shortcuts.</p>
+                </section>
+                <section id="fine-tuning" class="setting-section">
+                    <h2>Fine Tuning</h2>
+                    <p>Advanced experimental features.</p>
+                </section>
+            </div>
+    </div>
+</body>
+</html>

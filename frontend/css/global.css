@@ -6,12 +6,13 @@
 }
 
 :root {
-    --yellow: #c8a216;
+    --yellow: #f7c81f;
     --red: #e4280f;
     --blue: #2fb0b9;
     --green: #2bfaa1;
     --orange: #dd7f12;
     --background: #272727;
+    --background-darker: rgb(19, 19, 19);
     --text: rgb(239, 239, 239);
     --svg-filter: brightness(0) invert(1);
 }
@@ -30,10 +31,22 @@ html, body {
     box-sizing: border-box;
 }
 
+::selection {
+    background-color: var(--red);
+    color: var(--text);
+}
+   
+/* legacy support for older browser bc why not? */
+::-moz-selection {
+    background-color: var(--red);
+    color: var(--text);
+}
+
 .icon {
     color: var(--text);
 }
 
+/* dynamic change to background color for svg */
 img[src$=".svg"] {
     filter: var(--svg-filter);
 }

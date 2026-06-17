@@ -15,22 +15,22 @@
     <div class="page-wrapper" id="choosen-one">
         <div class="navbar">
                 <a href="https://github.com/Reend21/ReDOWN">
-                    <img width="48" height="48" src="./frontend/assets/icons/regular/github-logo.svg" alt="Github">
+                    <img width="40" height="40" src="./frontend/assets/icons/regular/github-logo.svg" alt="Github">
                 </a>
                 <a href="./frontend/pages/about.html">
-                    <img width="48" height="48" src="./frontend/assets/icons/regular/info.svg" alt="About">
+                    <img width="40" height="40" src="./frontend/assets/icons/regular/info.svg" alt="About">
                 </a>
-                <a href="">
-                    <img width="48" height="48" src="./frontend/assets/icons/regular/book-open.svg" alt="Terms of ethic use"> 
+                <a href="./frontend/pages/termsofethic.html">
+                    <img width="40" height="40" src="./frontend/assets/icons/regular/book-open.svg" alt="Terms of ethic use"> 
                 </a>
                 <a href="./frontend/pages/donate.html">
-                    <img width="48" height="48" src="./frontend/assets/icons/regular/heart.svg" alt="Donate">
+                    <img width="40" height="40" src="./frontend/assets/icons/regular/heart.svg" alt="Donate">
                 </a>
                 <a href="">
-                    <img width="48" height="48" src="./frontend/assets/icons/regular/heartbeat.svg" alt="Supported Platforms">
+                    <img width="40" height="40" src="./frontend/assets/icons/regular/heartbeat.svg" alt="Supported Platforms">
                 </a>
                 <a href="./frontend/pages/settings.html">
-                    <img width="48" height="48" src="./frontend/assets/icons/regular/gear.svg" alt="Settings">
+                    <img width="40" height="40" src="./frontend/assets/icons/regular/gear.svg" alt="Settings">
                 </a>
         </div>
 
@@ -39,60 +39,77 @@
                     <h1>Re://DOWN</h1>
                     <h2>An FOSS, Ad-Free, Fast, Multiplatform Supported and Powerful Downloader.</h2>
                 <div class="input-group">
-                    <input type="text" name="link" id="down-link">
+                    <input type="text" name="link" id="down-link" placeholder="paste your link to start downlaoding videos!">
                     <button class="download"><img width="48" height="48" src="./frontend/assets/icons/regular/arrow-down.svg" alt="Down"></button>
                 </div>
             <div class="download-alt">
-                        <h4 class="quality">480p</h4>
-                        <button class="quality-btn">
-                            <a href="">
-                                <img src="./assets/icons/down.svg" alt="Down">
-                            </a>
-                        </button>
-                        <h4 class="format-video">MP4</h4>
-                        <button class="format-down">
-                            <a href="">
-                                <img src="./assets/icons/down.svg" alt="down">
-                            </a>
-                        </button>
-                        <h4 class="format-sound">MP3</h4>
-                        <button class="format-down">
-                            <a href="">
-                                <img src="./assets/icons/down.svg" alt="down">
-                            </a>
-                        </button>
-                    <img src="" alt="">
+                <div class="format-quality">
+                    <div class="download-option">
+                        <h4 class="down-text">Quality</h4>
+                            <select class="down-btn" id="quality-select">
+                                <option value="lowest">Lowest Quality Possible</option>
+                                <option value="360p">360p</option>
+                                <option value="480p">480p</option>
+                                <option value="720p">720p</option>
+                                <option value="1080p">1080p</option>
+                                <option value="highest">Highest Quality Possible</option>                        
+                            </select>
+                    </div>
+
+                    <div class="download-option">
+                        <h4 class="down-text">Format</h4>
+                            <select class="down-btn" id="format-select">
+                                <option value="mp4">MP4</option>
+                                <option value="mkv">MKV</option>
+                                <option value="webm">WebM</option>
+                                <option value="mp3">MP3</option>
+                                <option value="opus">OPUS</option>
+                                <option value="flac">FLAC</option>
+                                <option value="ogg">OGG</option>
+                            </select>
+                    </div>
+
                 </div>
+                <div class="other">
+                    <h4 class="">other things:</h4>
+                </div>
+            </div>
         </div>
 
         <div class="footer">
-                <img src="frontend/assets/logos/redown.png" alt="Re://DOWN">
-                <ul class="footer-ul">
-                    <li>
-                        <a href="ReDOWN/frontend/pages/about.html">About</a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/Reend21/ReDOWN/blob/master/LICENSE">License</a>
-                    </li>
-                    <li>
-                        <a href="./frontend/pages/termsofethic.html">Terms of ethic use</a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/Reend21/ReDOWN">Github</a>
-                    </li>
-                    <li>
-                        <a href="">API</a>
-                    </li>
-                    <li>
-                        <a href="./frontend/pages/donate.html">Donate</a>
-                    </li>
-                    <li>
-                        <a href="">Themes</a>
-                    </li>  
-                    <li>
-                        <a href="https://github.com/Reend21/ReDOWN/releases">Updates</a>
-                    </li>                                                                               
-                </ul>
+                <div class="footer-left">
+                    <img src="frontend/assets/logos/redown.png" alt="Re://DOWN">
+                </div>
+                <div class="footer-right">
+                    <ul class="footer-ul">
+                        <li>
+                            <a href="./frontend/pages/about.html">About</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/Reend21/ReDOWN/blob/master/LICENSE">License</a>
+                        </li>
+                        <li>
+                            <a href="./frontend/pages/termsofethic.html">Terms of ethic use</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/Reend21/ReDOWN">Github</a>
+                        </li>
+                    </ul>
+                    <ul class="footer-ul">
+                        <li>
+                            <a href="">API</a>
+                        </li>
+                        <li>
+                            <a href="./frontend/pages/donate.html">Donate</a>
+                        </li>
+                        <li>
+                            <a href="">Themes</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/Reend21/ReDOWN/releases">Updates</a>
+                        </li>
+                    </ul>
+                </div>
         </div>
     </div>
     
