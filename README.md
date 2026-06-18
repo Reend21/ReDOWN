@@ -9,7 +9,7 @@
 
 [![License: AGPL-3.0-or-later](https://img.shields.io/badge/License-AGPL--3.0--or--later-blueviolet.svg)](LICENSE)
 [![Built with yt-dlp](https://img.shields.io/badge/Powered%20by-yt--dlp-red.svg)](https://github.com/yt-dlp/yt-dlp)
-[![Stack](https://img.shields.io/badge/Stack-Node.js%20%2B%20Fastify-green.svg)](https://fastify.dev)
+
 
 </div>
 
@@ -45,51 +45,11 @@ No trackers. No third-party cookies. No ads. It just works.
 - Optional anonymous error reporting (you see exactly what's sent before it goes)
 
 **Advanced**
-- Raw yt-dlp flags
 - Bandwidth limiting
 - Proxy support
 - Log level control
 - Scheduler / auto-download
 - Self-host: port & network configuration
-
----
-
-## Getting Started
-
-### Requirements
-
-- Node.js 20+
-- yt-dlp
-- ffmpeg
-
-### Install
-
-```bash
-git clone https://github.com/yourusername/redown.git
-cd redown
-npm install
-node backend/index.js
-```
-
-Then open `http://localhost:3000` in your browser.
-
-### Docker
-
-```bash
-docker compose up
-```
-
----
-
-## Configuration
-
-Copy the example config and edit to your liking:
-
-```bash
-cp config.example.json data/config.json
-```
-
-Full config reference: [`docs/config-reference.md`](docs/config-reference.md)
 
 ---
 
