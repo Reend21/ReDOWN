@@ -29,6 +29,7 @@ html, body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    accent-color: var(--red);
 }
 
 ::selection {
@@ -60,4 +61,64 @@ img[src$=".svg"] {
     margin: 0px;
     background-color: var(--background);
     color: var(--text);
+}
+
+.option {
+    background-color: var(--green);
+    width: 128px;
+    height: 64px;
+    color: var(--text);
+    padding: 5px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 2px;
+    transition: 500ms all;
+    border: none;
+    outline: none;
+}
+
+.option:hover {
+    background-color: var(--red);
+}
+
+.option::before {
+    background-image: url(../assets/icons/regular/check.svg);
+    content: "";
+    display: inline-flex; /* "before" is making the element inline by default. We make it inline-flex to make him affect from width and height and also center it. */
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.false {
+    background-color: var(--red);
+    width: 128px;
+    height: 64px;
+    color: var(--text);
+    padding: 5px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 2px;
+    transition: 500ms all;
+    border: none;
+    outline: none;
+}
+
+.false:hover {
+    background-color: var(--green);
+}
+
+.false::before {
+    background-image: url(../assets/icons/regular/x.svg);
+    content: "";
+    display: inline-flex; /* "before" is making the element inline by default. We make it inline-flex to make him affect from width and height and also center it. */
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+    background-size: contain;
+    background-repeat: no-repeat;
 }

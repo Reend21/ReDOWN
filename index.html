@@ -6,9 +6,7 @@
     <title>Re://DOWN</title>
     <link rel="stylesheet" href="./frontend/css/global.css">
     <link rel="stylesheet" href="./frontend/css/pages/home.css">
-    <link rel="icon" type="image/png" href="./frontend/assets/logos/redown.png">
-    <script src="./frontend/js/home.js"></script>
-    <script src="./frontend/js/global.js"></script>
+    <link rel="icon" type="image/png" href="./frontend/assets/logos/redown-minimal.png">
 </head>
 <body>
 
@@ -26,9 +24,6 @@
                 <a href="./frontend/pages/donate.html">
                     <img width="40" height="40" src="./frontend/assets/icons/regular/heart.svg" alt="Donate">
                 </a>
-                <a href="">
-                    <img width="40" height="40" src="./frontend/assets/icons/regular/heartbeat.svg" alt="Supported Platforms">
-                </a>
                 <a href="./frontend/pages/settings.html">
                     <img width="40" height="40" src="./frontend/assets/icons/regular/gear.svg" alt="Settings">
                 </a>
@@ -45,7 +40,7 @@
             <div class="download-alt">
                 <div class="format-quality">
                     <div class="download-option">
-                        <h4 class="down-text">Quality</h4>
+                        <h2 class="down-text">Quality</h2>
                             <select class="down-btn" id="quality-select">
                                 <option value="lowest">Lowest Quality Possible</option>
                                 <option value="360p">360p</option>
@@ -57,7 +52,7 @@
                     </div>
 
                     <div class="download-option">
-                        <h4 class="down-text">Format</h4>
+                        <h2 class="down-text">Format</h2>
                             <select class="down-btn" id="format-select">
                                 <option value="mp4">MP4</option>
                                 <option value="mkv">MKV</option>
@@ -70,8 +65,44 @@
                     </div>
 
                 </div>
-                <div class="other">
-                    <h4 class="">other things:</h4>
+                <div class="other-section">
+                    <h2>other things:</h2>
+                    <div class="other">
+                        <div class="other-item">
+                            <h4>Select Preset</h4>
+                            <button class="option"> </button>
+                        </div>
+                        <div class="other-item">
+                            <h4>Download without metadata</h4>
+                            <button class="option"></button>
+                        </div>
+                        <div class="other-item">
+                            <h4>Installation Path</h4>
+                            <input type="text" class="down-btn">
+                        </div>
+                        <div class="other-item">
+                            <h4>Use Proxy</h4>
+                            <select class="down-btn">
+                                <option value=""></option>
+                            </select>
+                        </div>
+                        <div class="other-item">
+                            <h4>Dont save to the history</h4>
+                            <button class="option"></button>
+                        </div>
+                        <div class="other-item">
+                            <h4>Import Cookies</h4>
+                            <button class="option"></button>
+                        </div>
+                        <div class="other-item">
+                            <h4>Limit Network</h4>
+                            <input type="range" class="down-input-small">
+                        </div>
+                        <div class="other-item">
+                            <h4>Only get raw link</h4>
+                            <button class="option"></button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -112,6 +143,9 @@
                 </div>
         </div>
     </div>
-    
+
+    <script src="./frontend/js/home.js"></script>
+    <script src="./frontend/js/global.js"></script>
+
 </body>
 </html>
