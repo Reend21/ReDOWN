@@ -41,6 +41,7 @@
                 <div class="format-quality">
                     <div class="download-option">
                         <h2 class="down-text">Quality</h2>
+                        <div class="select-wrapper">
                             <select class="down-btn" id="quality-select">
                                 <option value="lowest">Lowest Quality Possible</option>
                                 <option value="360p">360p</option>
@@ -49,10 +50,13 @@
                                 <option value="1080p">1080p</option>
                                 <option value="highest">Highest Quality Possible</option>                        
                             </select>
+                            <img class="select-arrow" src="./frontend/assets/icons/regular/caret-down.svg" alt="Arrow">
+                        </div>
                     </div>
 
                     <div class="download-option">
                         <h2 class="down-text">Format</h2>
+                        <div class="select-wrapper">
                             <select class="down-btn" id="format-select">
                                 <option value="mp4">MP4</option>
                                 <option value="mkv">MKV</option>
@@ -62,6 +66,8 @@
                                 <option value="flac">FLAC</option>
                                 <option value="ogg">OGG</option>
                             </select>
+                            <img class="select-arrow" src="./frontend/assets/icons/regular/caret-down.svg" alt="Arrow">
+                        </div>
                     </div>
 
                 </div>
@@ -78,7 +84,7 @@
                         </div>
                         <div class="other-item">
                             <h4>Installation Path</h4>
-                            <input type="text" class="down-btn">
+                            <input type="text" class="option-input">
                         </div>
                         <div class="other-item">
                             <h4>Use Proxy</h4>
@@ -96,7 +102,8 @@
                         </div>
                         <div class="other-item">
                             <h4>Limit Network</h4>
-                            <input type="range" class="down-input-small">
+                            <input type="range" class="down-input-small" id="network-limit" min="0" max="1000" value="0">
+                            <span id="network-limit-val" style="margin-top: 10px; font-size: 14px;">0 Mbps</span>
                         </div>
                         <div class="other-item">
                             <h4>Only get raw link</h4>

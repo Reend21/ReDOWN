@@ -1,0 +1,118 @@
+.why-redown {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 3px solid var(--red)
+}
+
+h1 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-bottom: 3px solid var(--red);
+    padding: 30px;
+    margin: 0px;
+}
+
+.n {
+    background-color: var(--background-darker);
+    color: var(--text);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 100%;
+    min-height: 256px;
+    padding: 10px;
+    border-bottom: 3px solid var(--red);
+}
+
+.nplus1 {
+    background-color: var(--background);
+    color: var(--red);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 100%;
+    min-height: 256px;
+    padding: 10px;
+    border-bottom: 3px solid var(--red);
+}
+
+.icon {
+
+}
+
+.reason-title {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    min-width: 33%;
+    height: 100%;
+}
+
+.reason-sub-text {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    line-break: strict;
+    height: 100%;    
+}
+
+.who-are-you {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+a.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    padding-right: 50px;
+}
+
+.contact-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.contact-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    justify-content: space-around;
+    text-align: center;
+    color: var(--text);
+    transition: transform 250ms, color 250ms;
+}
+
+.contact-link:hover {
+    transform: scale(1.05);
+    color: var(--red);
+}
+
+.contact-link img {
+    margin-bottom: 10px;
+    padding-right: 0;
+}

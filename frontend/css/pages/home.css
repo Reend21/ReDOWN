@@ -39,7 +39,7 @@ h2 {
 }
 
 .main-area {
-    height: 93vh;
+    min-height: 93vh;
     margin-top: 10px;
     align-items: center;
     justify-content: center;
@@ -75,14 +75,14 @@ h2 {
 #down-link:focus  {
     padding: 0.5%;
     transform: scale(1.05);
-    transition: all 500ms;
+    transition: all 250ms;
 }
 
 #down-link:focus + .download,
 .download:focus {
     padding: 0.5%;
     transform: scale(1.05);
-    transition: all 500ms;
+    transition: all 250ms;
 }
 
 .download {
@@ -130,6 +130,7 @@ h2 {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
     padding: 50px;
     border-bottom: 3px solid var(--red);
     margin: 0px;
@@ -139,6 +140,32 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 10%;
+}
+
+.select-wrapper {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+}
+
+.select-arrow {
+    position: absolute;
+    right: 25px;
+    width: 24px;
+    height: 24px;
+    pointer-events: none;
+}
+
+.format-quality .down-btn {
+    font-size: 16px;
+    text-align: center;
+    text-align-last: center;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding: 15px 45px 15px 15px;
+    height: auto;
 }
 
 .lets-put-buttons-in-a-container {

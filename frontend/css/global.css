@@ -24,12 +24,16 @@
 }
 
 html, body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
+    padding: 0px;
+    margin: 0px;
     box-sizing: border-box;
     accent-color: var(--red);
+    background-color: var(--background);
+    color: var(--text);
 }
 
 ::selection {
@@ -52,15 +56,9 @@ img[src$=".svg"] {
     filter: var(--svg-filter);
 }
 
-.page-wrapper {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    width: 100%;
-    padding: 0px;
-    margin: 0px;
-    background-color: var(--background);
-    color: var(--text);
+a {
+    color: var(--red);
+    text-decoration: wavy var(--red);
 }
 
 .option {
@@ -72,13 +70,13 @@ img[src$=".svg"] {
     margin: 10px;
     cursor: pointer;
     border-radius: 2px;
-    transition: 500ms all;
+    transition: 250ms all;
     border: none;
     outline: none;
 }
 
 .option:hover {
-    background-color: var(--red);
+    filter: brightness(75%);
 }
 
 .option::before {
@@ -93,7 +91,7 @@ img[src$=".svg"] {
     background-repeat: no-repeat;
 }
 
-.false {
+.false { /* Opposite of Option */
     background-color: var(--red);
     width: 128px;
     height: 64px;
@@ -102,13 +100,13 @@ img[src$=".svg"] {
     margin: 10px;
     cursor: pointer;
     border-radius: 2px;
-    transition: 500ms all;
+    transition: 250ms all;
     border: none;
     outline: none;
 }
 
 .false:hover {
-    background-color: var(--green);
+    filter: brightness(75%);
 }
 
 .false::before {
@@ -121,4 +119,17 @@ img[src$=".svg"] {
     height: 48px;
     background-size: contain;
     background-repeat: no-repeat;
+}
+
+.option-input {
+    outline: none;
+    background-color: var(--background-darker);
+    color: var(--text);
+    border: 2px solid var(--red);
+    padding: 24px;
+    margin: 6px;
+    border-radius: 3px;
+    width: 256px;
+    height: 32px;
+    
 }
